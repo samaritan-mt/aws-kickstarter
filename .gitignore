@@ -2,5 +2,10 @@
 docs/*
 .terraform
 *.tfvars
-registry.jsonl
 *.pyc
+!README.md
+*.tfstate*
+backend.hcl
+tfplan
+*.tfplan
+registry.jsonl
