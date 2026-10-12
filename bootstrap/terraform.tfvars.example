@@ -1,0 +1,13 @@
+# Copy to terraform.tfvars (git-ignored) and fill in your values.
+
+# 12-digit AWS account ID. The provider refuses to run against any other account.
+aws_account_id = "000000000000"
+
+# Identifier of the person or IAM user who owns the resources (the Owner tag).
+owner = "a-example"
+
+# Name issued by scripts/naming.py (service s3): <region>-<account>-<env>-s3-<id>
+terraform_state_bucket_name = "euw-1-0-shared-s3-0000000"
+
+# Optional. Must be one of the regions in ADR 0001. Default: eu-west-1.
+# aws_region = "eu-west-1"

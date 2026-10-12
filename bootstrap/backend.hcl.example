@@ -1,0 +1,11 @@
+# Copy to backend.hcl (git-ignored) and fill in your values.
+# Usage: terraform init -backend-config=backend.hcl
+# Use the same bucket as terraform_state_bucket_name in terraform.tfvars.
+
+# Name issued by scripts/naming.py: <region>-<account>-<env>-s3-<id>
+bucket = "euw-1-0-shared-s3-0000000"
+
+region = "eu-west-1"
+
+# One key per root module, for example bootstrap/terraform.tfstate or live/shared/<module>/terraform.tfstate
+key = "bootstrap/terraform.tfstate"
