@@ -11,3 +11,6 @@ tfplan
 registry.jsonl
 scripts/.naming-state.json
 scripts/registry.jsonl
+
+# Published: the owner decision summary only (ADRs, runbooks and tracking stay local)
+!docs/DECISIONS-SUMMARY.md
