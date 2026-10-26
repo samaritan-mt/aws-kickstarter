@@ -9,3 +9,5 @@ backend.hcl
 tfplan
 *.tfplan
 registry.jsonl
+scripts/.naming-state.json
+scripts/registry.jsonl
